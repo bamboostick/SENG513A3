@@ -1,0 +1,108 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+    font: 16px Helvetica, Arial;
+    font-weight: 300;
+    padding-bottom: 50px;
+    background: #F0F0F0;
+}
+form { 
+    background: #000; 
+    padding: 5px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+form input { 
+    border: 0; 
+    padding: 10px; 
+    width: 80%; 
+    margin-left: 1%; 
+    margin-right: 1%; 
+    margin-bottom: 5px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #000;
+
+}
+
+form button { 
+    width: 15%; 
+    background: #F6A623;
+    border: none;
+    padding: 10px; 
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #000;
+}
+
+form button:hover { 
+    background: #F67C23;
+}
+
+
+#messages { 
+    list-style-type: none; 
+    margin: 10px; 
+    margin-top: 45px;
+    padding: 0; 
+    width: 66%;
+    height: 80%;
+    vertical-align: bottom;
+    overflow: scroll;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+#messages li { 
+    position: relative;
+    padding: 5px 10px;
+    background: #fff; 
+    border-top: thin double #F4F4F4;
+}
+
+#messages li span{ 
+    display: block;
+}
+
+#username{
+    z-index: 10;
+    list-style-type: none;
+    position: fixed;
+    background: #101010;
+    margin: 0px; 
+    margin-top: -45px;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+#onlineusers { 
+    position: fixed;
+    list-style-type: none; 
+    margin: -0px; 
+    margin-left: 5px;
+    margin-top: -2px;
+    width: 33%;
+    box-shadow: 2px 2px 5px #000000;
+    background: #414141;
+    z-index: 11;
+}
+
+#onlineusers li{
+    padding: 5px 10px; 
+    margin: 0px; 
+    color: aliceblue;
+}
+
+
+
+article {
+  float: left;
+    bottom: 0;
+    width: 66%;
+}
+
+aside {
+  float: right;
+  width: 33%;
+    position:static;
+}
